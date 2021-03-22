@@ -1,6 +1,6 @@
 package austinspinazze.springframework.sfgpetclinic.model;
 
-public class PetType {
+public class PetType extends BaseEntity {
 
     // PetType object model
     private String name;
