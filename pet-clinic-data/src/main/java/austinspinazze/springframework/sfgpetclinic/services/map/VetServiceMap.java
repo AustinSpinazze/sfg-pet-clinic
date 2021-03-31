@@ -11,26 +11,26 @@ public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetS
 
     @Override
     public Set<Vet> findAll() {
-        return null;
+        return super.findAll();
     }
 
     @Override
     public Vet findById(Long id) {
-        return null;
+        return super.findById(id);
     }
 
     @Override
     public Vet save(Vet object) {
-        return null;
+        return super.save(object.getId(), object);
     }
 
     @Override
     public void delete(Vet object) {
-
+        super.delete(object);
     }
 
     @Override
     public void deleteById(Long id) {
-
+        super.deleteById(id);
     }
 }
