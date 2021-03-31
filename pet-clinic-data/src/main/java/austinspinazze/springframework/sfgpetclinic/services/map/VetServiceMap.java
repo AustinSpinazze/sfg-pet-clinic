@@ -2,9 +2,11 @@ package austinspinazze.springframework.sfgpetclinic.services.map;
 
 import austinspinazze.springframework.sfgpetclinic.model.Vet;
 import austinspinazze.springframework.sfgpetclinic.services.VetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
     @Override
